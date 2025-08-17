@@ -4,7 +4,7 @@
 a = Analysis(
     ['app.py'],
     pathex=[],
-    binaries=[],
+    binaries=[('yt-env/bin/yt-dlp', '.')],
     datas=[],
     hiddenimports=[],
     hookspath=[],
